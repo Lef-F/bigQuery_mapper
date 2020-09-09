@@ -46,6 +46,21 @@ The configuration file is a JSON file with the following keywords:
 * `flowchart`      (bool): whether or not to produce a flowchart of the tables and views dependencies;
 * `flowchart_file`  (str): path to a PDF file where to save the flowchart.
 
+### Example configuration file
+
+```javascript
+{
+    "credentials": "/path/to/gcloud-credentials.json",
+    "printout": true,
+    "table_list_file": "table_list.txt",
+    "get_views": true,
+    "views_path":  "view_queries/",
+    "get_scheduled": true,
+    "scheduled_path": "sched_queries/",
+    "flowchart": true,
+    "flowchart_file": "flowcharts/all_tables_flowchart.pdf"
+}
+```
 
 ## Authors
 
