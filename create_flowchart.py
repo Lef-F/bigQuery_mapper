@@ -33,16 +33,7 @@ elif len(sys.argv) == 1 + 1:
     
 # Set default config:
 else:
-    config = {
-        "credentials": "/home/skems/gabinete/projetos/keys-configs/gabinete-compartilhado.json",
-        "printout": False,
-        "get_views": False,
-        "views_path":  "../views/",
-        "get_scheduled": False,
-        "scheduled_path": "../scheduled_queries/",
-        "flowchart": True,
-        "flowchart_file": "this_file.pdf"
-    }
+    raise FileNotFoundError("Please create and configure the config.json file. See README.md")
 
     
 ### MAIN CODE ###
