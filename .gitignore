@@ -1,2 +1,10 @@
 __pycache__
 README.html
+
+# Local storage folders
+flowcharts/
+sched_queries/
+view_queries/
+
+# Credentials file
+config.json
